@@ -1,0 +1,6 @@
+python -m venv .venv
+.venv\Scripts\activate
+pip install numpy
+pip install brainflow
+
+wmic path Win32_SerialPort get DeviceID,Description
